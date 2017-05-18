@@ -1,16 +1,15 @@
-<html>
-<title>
-    Angular JS
-</title
-
-<head>
+<!DOCTYPE html>
+<html ng-app="appname">
+    <head>
+<title> Angular JS</title>
+<meta charset="utf-8">
+<script>src="angular.min.js"</script>
+<script>src="app.js"</script>
  </head>
 
     <body>
-        <h1>
-           This is my first page !! Good one
-           
-        </h1>
+        <h1>First Angular application </h1>
+        <div ng-controller = "MyFirstController"> 
+         {{name}}
+        </div>
     </body>
-
-</html>
