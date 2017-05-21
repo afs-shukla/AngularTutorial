@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app = 'myApp'>
+ <head>
+<title> Angular JS</title>
+<meta charset="utf-8">
+<script src = "angular.min.js"></script>
+<script src = "app.js"></script>
+ </head>
+
+    <body>
+        <h1>First Angular application </h1>
+        <div ng-controller = 'MyFirstController'> 
+           Name: <input type="text" ng-model="name"> 
+         {{name}}
+         {{helloworld()}}
+        </div>
+    </body>

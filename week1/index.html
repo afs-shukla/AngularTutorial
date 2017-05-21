@@ -1,0 +1,18 @@
+<html ng-app = 'DIApp'>
+ <head>
+<title> Dependency Injection Angular JS</title>
+<meta charset="utf-8">
+<script src = "angular.min.js"></script>
+<script src = "app.js"></script>
+ </head>
+
+    <body>
+        <h1>Dependency Injection In Angular </h1>
+        <div ng-controller = 'DI1Controller'> 
+           Name: <input type="text" ng-model="name" ng-blur="caseUp()"> 
+          {{name}}
+         
+        </div>
+    </body>
+
+</html>
